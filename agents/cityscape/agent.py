@@ -9,8 +9,8 @@ import datetime
 from google.genai import types
 import os
 
-DEFAULT_MODEL='gemini-3-flash-preview'
-NANO_BANANA_MODEL='gemini-3-pro-image-preview'
+DEFAULT_MODEL='gemini-3.5-flash'
+NANO_BANANA_MODEL='gemini-3-pro-image'
 
 get_weather = McpToolset(
     connection_params=StreamableHTTPConnectionParams(
