@@ -1,5 +1,6 @@
 from google.adk.agents import LlmAgent, ParallelAgent, SequentialAgent
-from google.adk.tools.mcp_tool import McpToolset, StreamableHTTPConnectionParams, StdioConnectionParams
+from google.adk.tools.mcp_tool.mcp_toolset import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnectionParams, StdioConnectionParams
 from mcp import StdioServerParameters
 from google.adk.tools import google_search
 from google.adk.tools.tool_context import ToolContext
